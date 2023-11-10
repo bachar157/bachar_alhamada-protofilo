@@ -6,6 +6,7 @@ header {
   }
   
   @font-face {
+    
     font-family: ar-font;
     src: url(../font-a); 
   }
@@ -99,4 +100,187 @@ header {
     text-align: right;
   }
   
- 
+  nav.navbar.noTransparrent button.navbar-toggler {
+    margin: 30px auto; 
+  }
+  
+  nav.navbar.noTransparrent button.navbar-toggler span {
+    color: #0575e6;
+  }
+  
+  @media (max-width: 767px) {
+    nav.navbar {
+        min-height: 80px;
+    }
+  
+    nav.navbar .container {
+        width: 100%;
+        position: relative;
+        min-height: 40px;
+    }
+    nav.navbar button.navbar-toggler{
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+    }
+    nav.navbar button.navbar-toggler span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav.navbar.noTransparrent button.navbar-toggler {
+        margin: 0;
+    }
+    nav.navbar ul{
+        padding-right: 0;
+    }
+  }
+  section.licence {
+    padding: 140px 0 80px;
+    background-color: #f6fbff; 
+    text-align: right; 
+  }
+  
+  section.licence .title {
+    padding-bottom: 35px; 
+    Position:  relative
+  }
+  section.licence .title h2 {
+    font-size: 30px;
+    line-height: 50px;
+    color: #0575e6; 
+  }
+  
+  section.licence .title:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #196dd1;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  
+  section.licence .title h2 i {
+    display: block;
+  }
+  section.licence ul.timeline li .time-box {
+    background-color: #ffffff;
+    border: 2px solid #f4f3f3;
+    max-width: 48%;
+    padding: 25px 40px; 
+    position: relative;
+  }
+  
+  section.licence ul.timeline li .time-box h4 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555; 
+  }
+  
+  section.licence ul.timeline li .time-box h4 span {
+    color: #ffffff;
+    background: #0575e6;
+    padding: 0 5px;
+    margin-left: 25px; 
+  }
+  
+  section.licence ul.timeline li .time-box p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #b1b1b1;
+  }
+  
+  section.licence ul.timeline li .time-box:after {
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    transform: rotate(45deg);    
+    border-left: 2px solid #f4f3f3;
+    border-bottom: 2px solid #f4f3f3; 
+  }
+  section.licence ul.timeline {
+    padding-right: 0;
+    padding-top: 45px;
+    position: relative;
+  }
+  
+  section.licence ul.timeline:before {
+    content: "";
+    width: 2px;
+    height: 75%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    margin-right: -1px;
+    background: #196dd1;
+  }
+  
+   section.licence ul.timeline li {
+    position: relative;
+  }
+  
+  section.licence ul.timeline li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #196dd1;
+    position: absolute;
+    top: 9%;
+    right: 50%;
+    margin-right: -5px;
+  }
+  
+  section.licence ul.timeline li:nth-of-type(even) {
+    direction: ltr;
+    text-align: left;
+  }
+  
+  section.licence ul.timeline li:nth-of-type(even) .time-box h4 span {
+    margin-left: 0;
+    margin-right: 25px;
+    float: left;
+  }
+  
+  section.licence ul.timeline li:nth-of-type(even) .time-box:after {
+    left: auto;
+    right: -10px;
+    border: 0;
+    border-top: 2px solid #f4f3f3;
+    border-right: 2px solid #f4f3f3;
+  }
+  
+  section.licence ul.timeline li:not(:first-of-type) {
+    margin-top: -50px;
+  }
+  
+  @media (max-width: 767px) {
+    section.licence ul.timeline li .time-box {
+        max-width: 100%;
+    }
+    section.licence ul.timeline li:not(:first-of-type) {
+        margin-top: 20px;
+    }
+    section.licence ul.timeline li .time-box:after {
+        display: none;
+    }
+    section.licence ul.timeline:before {
+        height: 90%;
+    }
+  }
+  section.statistics {
+    background-image: url(../img/bg2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  

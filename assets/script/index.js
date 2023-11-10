@@ -43,3 +43,9 @@ $(document).ready(function () {
 $(function () {
     $("#emailForm").validate();
  });
+
+ new CircleProgress('.progress', {
+	max: 100,
+	value: 40,
+	textFormat: 'percent',
+});
