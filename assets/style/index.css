@@ -1,0 +1,102 @@
+header {
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh; 
+  }
+  
+  @font-face {
+    font-family: ar-font;
+    src: url(../font-a); 
+  }
+  
+  body {
+    
+    font-family: ar-font; 
+  }
+  header .MainCard {
+      background-color: rgba(5, 117, 230, 0.8);
+      color: #ffffff;
+      padding: 3% 10%;
+      transform: translateY(20%);
+  }
+  
+  header .MainCard img {
+     border: 5px solid #72ace7;
+     margin-bottom: 20px; 
+  }
+  
+  header .MainCard h1 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 25px;
+  }
+  
+  header .MainCard h1 span {
+     font-size: 24px;
+  }
+  
+  header .MainCard ul {
+     padding-right: 0;
+     margin-bottom: 40px; 
+  }
+  
+  header .MainCard ul li {
+     margin-right: 10px;
+  }
+  
+  header .MainCard ul li a {
+     color: #021b79;
+     font-size: 24px;
+  }
+  
+  header .MainCard h2 {
+      font-size: 15px;
+      line-height: 30px;
+      font-weight: bold;
+      margin-bottom: 15px;
+  }
+  
+  header .MainCard p {
+      font-size: 15px;
+      line-height: 30px;
+      color: #89c4ff;
+      margin-bottom: 40px;
+  }
+  
+  header .MainCard>a {
+      color: #ffffff;
+      font-size: 18px;
+      line-height: 32px;
+      margin-bottom: 40px;
+  }
+  nav.navbar ul.navbar-nav li a.nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 60px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    transition: all 0.5s ease;
+  }
+  
+  nav.navbar ul.navbar-nav li a.nav-link:hover, nav.navbar ul.navbar-nav li a.nav-link.active {
+    color: #0575e6;
+    background-color: #ffffff;
+  }
+  nav.navbar.noTransparrent ul.navbar-nav li a.nav-link {
+    color: #0575e6;
+  }
+  
+  nav.navbar.noTransparrent ul.navbar-nav li a.nav-link:hover, nav.navbar.noTransparrent ul.navbar-nav li a.nav-link.active {
+  color: #ffffff;
+  background-color: #0575e6;
+  }
+  nav.navbar.noTransparrent {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+  }
+  nav.navbar{
+    text-align: right;
+  }
+  
+ 
