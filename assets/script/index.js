@@ -49,3 +49,21 @@ $(function () {
 	value: 40,
 	textFormat: 'percent',
 });
+document.addEventListener('DOMContentLoaded', function () {
+  var arrow = document.getElementById('scroll-arrow');
+
+  window.addEventListener('scroll', function () {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          arrow.classList.remove('hide');
+      } else {
+          arrow.classList.add('hide');
+      }
+  });
+
+  arrow.addEventListener('click', function () {
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+      });
+  });
+});

@@ -592,7 +592,7 @@ header {
         padding-left: 0.75rem;
     }
     section.contacts .overlay .testimonials .slider .carousel .carousel-item {
-        min-height: 390px;
+        min-height: 590px;
     }
     section.contacts .overlay .contact-info ul.social li a i {
         width: 40px;
@@ -614,4 +614,10 @@ header {
     }
   }
 
-  
+
+.center-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the span takes the full height of the circle */
+}
