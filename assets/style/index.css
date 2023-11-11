@@ -250,7 +250,7 @@ header {
     float: right;
   }
   
-  section.licence ul.timeline li:nth-of-type(even) .time-box:after {
+  section.licence ul.timeline li:nth-of-type(odd) .time-box:after {
     left: auto;
     right: -10px;
     border: 0;
