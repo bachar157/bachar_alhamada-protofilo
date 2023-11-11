@@ -1,5 +1,5 @@
 # bachar_alhamada-protofilo
-# Portfolio - Bachar Alhamada
+
 
 ## About Me
 
@@ -11,7 +11,7 @@ Greetings! I'm Bachar Alhamada, and this is my digital space where creativity me
 
 
 - **Description:** 
-- **GitHub Repository:** [Snake Game Repository]([https://github.com/bachar157/](https://github.com/bachar157/bachar_alhamada-protofilo))
+- **GitHub Repository:** [ protofilo Repository]([https://github.com/bachar157/](https://github.com/bachar157/bachar_alhamada-protofilo))
 
 ### Project X
 
